@@ -1,7 +1,10 @@
-flask==2.3.2
-sqlalchemy==2.0.21
+streamlit==1.32.0
+pillow==10.2.0
 requests==2.31.0
-gunicorn==20.1.0
-python-dotenv==1.0.0
+streamlit-lottie==0.0.5
 moondream==0.1.0
-streamlit_lottie
+python-dotenv==1.0.0
+numpy==1.26.3
+pandas==2.2.0
+matplotlib==3.8.2
+toml==0.10.2

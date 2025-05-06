@@ -37,7 +37,7 @@ class mdHelper:
         return answer
     
     def detect(self, image: Union[Image.Image, str], objects: str)->str:
-        img = self._load_imag(image)
+        img = self._load_image(image)
         answer = self.model.detect(img, objects)["objects"]
         return answer
     
