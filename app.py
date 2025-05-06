@@ -127,9 +127,7 @@ elif st.session_state.page == "Author":
     with col1:
         # Optional: Add a profile picture 
         # You can replace this with st.image() and a local profile picture
-        author_anim = load_lottieurl("https://lottie.host/2f1345be-88f8-4991-aea5-c6df90fcc18c/uJvU3mEiQu.json")
-        if author_anim:
-            st_lottie(author_anim, height=200, key="author_animation")
+        st.image(image="1720381456833.jpg")
     
     with col2:
         st.subheader("Developer Information")
