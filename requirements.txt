@@ -1,5 +1,5 @@
 streamlit==1.32.0
-pillow==10.2.0
+pillow>=10.4.0,<11.0.0
 requests==2.31.0
 streamlit-lottie==0.0.5
 moondream==0.1.0
